@@ -1,0 +1,57 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   width: 550px;
+   height: 550px;
+   top: 83px;
+   left: 89px;
+   background-color: black
+}
+
+.box {
+   
+   text-align: center;
+   padding: 25px;
+   position: fixed;
+   left: 30px;
+   right: 30px;
+   top: 30px;    
+         
+}
+
+.top{
+   background-image: linear-gradient(to bottom right, #05795A, #18244A);
+   padding: 25px;
+   font-family: 'Franklin Gothic Medium';
+   color:antiquewhite; 
+}
+
+#inputArea {
+   font-size: 75px;
+   font-family: Verdana;
+   width: 40%;
+   text-align: end; 
+   background-color: antiquewhite;
+}
+
+#button {
+   font-size:25px;
+   padding: 6px;
+   margin: 15px;
+   border-radius: 8px;
+   border: none;
+   background-color: #a9a9a9;
+   color:black;
+   transition-duration: 0.4s;
+}
+#button:hover{
+   background-color: #9F2B68;
+   color: white;
+   
+}
+
+#display {
+   background-color: antiquewhite;
+   padding: 25px
+   
+}
